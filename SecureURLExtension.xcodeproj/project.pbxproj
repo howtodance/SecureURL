@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0FCBAA270DD84C0027456D /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FCBA9270DD84C0027456D /* SheetView.swift */; };
+		2B0FCBAB270DD84C0027456D /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FCBA9270DD84C0027456D /* SheetView.swift */; };
+		2B1CD8412705C57A00ED514F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1CD8402705C57A00ED514F /* WebView.swift */; };
+		2B1CD8422705C57A00ED514F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1CD8402705C57A00ED514F /* WebView.swift */; };
 		2B23B604265FA37100CEB73F /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B23B603265FA37100CEB73F /* Tests_iOS.swift */; };
 		2B23B60F265FA37100CEB73F /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B23B60E265FA37100CEB73F /* Tests_macOS.swift */; };
 		2B23B611265FA37100CEB73F /* SecureURLExtensionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B23B5E8265FA37000CEB73F /* SecureURLExtensionApp.swift */; };
@@ -38,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0FCBA9270DD84C0027456D /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		2B1CD8402705C57A00ED514F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		2B23B5E8265FA37000CEB73F /* SecureURLExtensionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureURLExtensionApp.swift; sourceTree = "<group>"; };
 		2B23B5E9265FA37000CEB73F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B23B5EA265FA37100CEB73F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +111,8 @@
 			children = (
 				2B23B5E8265FA37000CEB73F /* SecureURLExtensionApp.swift */,
 				2B23B5E9265FA37000CEB73F /* ContentView.swift */,
+				2B1CD8402705C57A00ED514F /* WebView.swift */,
+				2B0FCBA9270DD84C0027456D /* SheetView.swift */,
 				2B23B628265FA3FC00CEB73F /* URL+Secure.swift */,
 				2B23B5EA265FA37100CEB73F /* Assets.xcassets */,
 			);
@@ -316,6 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B23B629265FA3FC00CEB73F /* URL+Secure.swift in Sources */,
+				2B1CD8412705C57A00ED514F /* WebView.swift in Sources */,
+				2B0FCBAA270DD84C0027456D /* SheetView.swift in Sources */,
 				2B23B613265FA37100CEB73F /* ContentView.swift in Sources */,
 				2B23B611265FA37100CEB73F /* SecureURLExtensionApp.swift in Sources */,
 			);
@@ -325,7 +335,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1CD8422705C57A00ED514F /* WebView.swift in Sources */,
 				2B23B614265FA37100CEB73F /* ContentView.swift in Sources */,
+				2B0FCBAB270DD84C0027456D /* SheetView.swift in Sources */,
 				2B23B612265FA37100CEB73F /* SecureURLExtensionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,7 +496,7 @@
 				DEVELOPMENT_TEAM = MHB2UWWYF4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +518,7 @@
 				DEVELOPMENT_TEAM = MHB2UWWYF4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
