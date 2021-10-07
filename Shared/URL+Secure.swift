@@ -70,6 +70,7 @@ extension URL {
     private static var allowedHostsList: Set<String> {
         #if DEBUG
         let allowedHosts = [
+            "techcrunch.com",
             "staging.companyurl.com",
             "apps.apple.com",
             "itunes.apple.com",
@@ -78,6 +79,7 @@ extension URL {
         ]
         #else
         let allowedHosts = [
+            "techcrunch.com",
             "apps.apple.com",
             "itunes.apple.com",
             "twitter.com",
